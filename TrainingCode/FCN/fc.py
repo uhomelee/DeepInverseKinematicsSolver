@@ -1,22 +1,12 @@
 import numpy as np
 import tensorflow as tf
+
 #import matplotlib.pyplot as plt
+X_train = np.loadtxt('./train_x.txt')
+y_train = np.loadtxt('./train_y.txt')
 
-X_train = np.loadtxt('./TrainDataOutput/1f/train_x.txt')
-y_train = np.loadtxt('./TrainDataOutput/1f/train_y.txt')
-#X_test = np.loadtxt('test_x.txt')
-#y_test = np.loadtxt('test_y.txt')
-
+#Model architecture parameters
 n_dim = 3
-"""
-n_neurons_1 = 256
-n_neurons_2 = 512
-n_neurons_3 = 512
-n_neurons_4 = 1024
-n_neurons_5 = 1024
-n_neurons_6 = 1024
-n_rot=6
-"""
 n_neurons_1 = 128
 n_neurons_2 = 128
 n_neurons_3 = 256
@@ -49,30 +39,6 @@ hidden_2 = tf.nn.relu(tf.add(tf.matmul(hidden_1, W_hidden_2), bias_hidden_2))
 W_hidden_3 = tf.Variable(weight_initializer([n_neurons_2, n_neurons_3]))
 bias_hidden_3 = tf.Variable(bias_initializer([n_neurons_3]))
 hidden_3 = tf.nn.relu(tf.add(tf.matmul(hidden_2, W_hidden_3), bias_hidden_3))
-"""
-## Layer 4: Variables for hidden weights and biases
-W_hidden_4 = tf.Variable(weight_initializer([n_neurons_3, n_neurons_4]))
-bias_hidden_4 = tf.Variable(bias_initializer([n_neurons_4]))
-hidden_4 = tf.nn.relu(tf.add(tf.matmul(hidden_3, W_hidden_4), bias_hidden_4))
-
-## Layer 5: Variables for hidden we
-# ights and biases
-W_hidden_5 = tf.Variable(weight_initializer([n_neurons_4, n_neurons_5]))
-bias_hidden_5 = tf.Variable(bias_initializer([n_neurons_5]))
-hidden_5 = tf.nn.relu(tf.add(tf.matmul(hidden_4, W_hidden_5), bias_hidden_5))
-
-W_hidden_6 = tf.Variable(weight_initializer([n_neurons_5, n_neurons_6]))
-bias_hidden_6 = tf.Variable(bias_initializer([n_neurons_6]))
-hiddens['hidden_6']=tf.nn.relu(tf.add(tf.matmul(hidden_5, W_hidden_6), bias_hidden_6))
-
-for i in range(7,16):
-    #print(i)
-    W_hiddens['W_hidden_%s'%i]=tf.Variable(weight_initializer([1024, 1024]))
-    bias_hiddens['bias_hidden_%s'%i]=tf.Variable(bias_initializer([1024]))
-    hiddens['hidden_%s'%i]=tf.nn.relu(tf.add(tf.matmul(hiddens['hidden_%s'%(i-1)], W_hiddens['W_hidden_%s'%i]), bias_hiddens['bias_hidden_%s'%i]))
-    #print(hiddens['hidden_%s'%i].shape)
-# Output layer: Variables for output weights and biases
-"""
 W_out = tf.Variable(weight_initializer([256, n_rot]))
 bias_out = tf.Variable(bias_initializer([n_rot]))
 #out = tf.add(tf.matmul(hiddens['hidden_15'], W_out), bias_out)
@@ -80,15 +46,6 @@ out = tf.add(tf.matmul(hidden_3, W_out), bias_out)
 
 mse = tf.reduce_mean(tf.squared_difference(out, Y))
 opt = tf.train.AdamOptimizer().minimize(mse)
-#global_step=tf.Variable(0,trainable=False)
-#start_learning_rate=0.001
-#learning_rate=tf.train.exponential_decay(start_learning_rate,global_step,decay_steps=850000,decay_rate=0.96,staircase=True)
-#optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate)
-#optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
-#gvs = optimizer.compute_gradients(mse)
-#capped_gvs = [(tf.clip_by_value(grad, -1., 1.), var) for grad, var in gvs]
-#train_op = optimizer.apply_gradients(capped_gvs,global_step=global_step)
-#train_op = optimizer.apply_gradients(capped_gvs)
 
 # Compute the gradients for a list of variables.
 

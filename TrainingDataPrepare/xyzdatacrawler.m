@@ -1,16 +1,16 @@
-addpath('/home/nevershutdown/recent/lib');
-addpath('/home/nevershutdown/recent/NDLUTIL0p161/NDLUTIL0p161');
+% prepare training data of a arm IK solver 
+addpath('../TrainingMaterial/lib');
+addpath('../TrainingMaterial/libNDLUTIL0p161/NDLUTIL0p161');
 format long;
-folders=dir('/home/nevershutdown/recent/data_full');
-% train_x=fopen('/home/student/tiny_sample/train_x_5_10f.txt','a');
-% train_y=fopen('/home/student/tiny_sample/train_y_5_10f.txt','a');
-% test_x=fopen('/home/student/tiny_sample/test_x_5_10f.txt','a');
-% test_y=fopen('/home/student/tiny_sample/test_y_5_10f.txt','a');
-test_x=fopen('/home/nevershutdown/test_x_5_10f.txt','a');
-test_y=fopen('/home/nevershutdown/test_y_5_10f.txt','a');
+% please put all bvh_file into one file folder
+bvh_file_path='../TrainingMaterial/bvh_file/trainingSample'
+folders=dir(bvh_file_path);
+train_x=fopen('../train_x_5_10f.txt','a');
+train_y=fopen('../train_y_5_10f.txt','a');
+test_x=fopen('../test_x_5_10f.txt','a');
+test_y=fopen('../test_y_5_10f.txt','a');
 for i=3:length(folders)
-%for i=3:12
-    folder=strcat('/home/nevershutdown/recent/data_full/',folders(i).name);
+    folder=strcat('../TrainingMaterial/bvh_file/t',folders(i).name);
     files=dir(folder);
     
 %     for j=3:floor(length(files)/10*9)
