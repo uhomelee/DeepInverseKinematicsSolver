@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b90fa046-3ece-426c-b4eb-004c33f2d8a1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/TrainingDataPrepare/fifteen_restore.m" beforeDir="false" afterPath="$PROJECT_DIR$/TrainingDataPrepare/fifteen_restore.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingDataPrepare/test_pre.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingDataPrepare/xyzdatacrawler.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/Contents.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/centeringMatrix.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/cumGamma.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/cumGaussian.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/defaultOptions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/deg2rad.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/fileVersions.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/gammaPdf.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/gaussOverDiffCumGaussian.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/gaussSamp.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/getSymbols.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/getline.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/gradLnDiffErfs.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/gradLogCumGaussian.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/gradientCheck.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/hessianCheck.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/invCumGaussian.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/invSigmoid.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/isoctave.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/jitChol.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/kldivGaussian.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/lnCumGaussSum.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/lnCumGaussian.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/lnDiffCumGaussian.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/lnDiffErfs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/lnDiffErfs.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/logdet.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/ndlutilToolboxes.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/negLogLogit.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/ngaussian.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/numsf2str.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/pdinv.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/preparePlot.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/printPlot.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/readBinaryDoubles.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/readBoolFromFID.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/readDoubleFromFID.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/readIntFromFID.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/readStringFromFID.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/readVersionFromFID.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/rocCurve.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/scatterPlot.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/sigmoid.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/sparseDiag.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/stack.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/stringSigFigs.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/stringSplit.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/tableRead.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/tokenise.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/traceProduct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/treeFindChildren.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/treeFindLeaves.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/treeFindParents.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/treeFindRoots.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/treeGetWidths.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/treeSwapNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/writeBoolToFID.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/writeDoubleToFID.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/writeIntToFID.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/writeStringToFID.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/writeVersionToFID.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/xlogy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainingMaterial/matlab_lib/NDLUTIL0p161/NDLUTIL0p161/zeroAxes.m" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="cnn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrainingCode/CNN/cnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nine_restore.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrainingDataPrepare/nine_restore.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testingDataPrepare.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TrainingDataPrepare/testingDataPrepare.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trainingDataCrawl.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrainingDataPrepare/trainingDataCrawl.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="910">
+              <caret line="54" column="45" lean-forward="true" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GAN.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrainingCode/GAN/GAN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrainingCode/FCN/fc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="846">
+              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rnn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrainingCode/RNN/rnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="103" column="35" selection-start-line="84" selection-start-column="8" selection-end-line="103" selection-end-column="35" />
+              <folding>
+                <element signature="e#454#491#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rnn_multilayer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrainingCode/RNN/rnn_multilayer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="16" />
+              <folding>
+                <element signature="e#454#491#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TrainingCode/CNN/cnn.py" />
+        <option value="$PROJECT_DIR$/TrainingCode/FCN/fc.py" />
+        <option value="$PROJECT_DIR$/TrainingCode/RNN/rnn.py" />
+        <option value="$PROJECT_DIR$/TrainingCode/RNN/rnn_multilayer.py" />
+        <option value="$PROJECT_DIR$/TrainingDataPrepare/fifteen_restore.m" />
+        <option value="$PROJECT_DIR$/TrainingDataPrepare/xyzdatacrawler.m" />
+        <option value="$PROJECT_DIR$/TrainingDataPrepare/trainingDataCrawl.m" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="77" />
+    <option name="y" value="31" />
+    <option name="width" value="1851" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DeepInverseKinematicsSolver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepInverseKinematicsSolver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepInverseKinematicsSolver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepInverseKinematicsSolver" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepInverseKinematicsSolver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepInverseKinematicsSolver" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingCode" type="462c0819:PsiDirectoryNode" />
+              <item name="CNN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepInverseKinematicsSolver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepInverseKinematicsSolver" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingCode" type="462c0819:PsiDirectoryNode" />
+              <item name="FCN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepInverseKinematicsSolver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepInverseKinematicsSolver" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingCode" type="462c0819:PsiDirectoryNode" />
+              <item name="GAN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepInverseKinematicsSolver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepInverseKinematicsSolver" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingCode" type="462c0819:PsiDirectoryNode" />
+              <item name="RNN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepInverseKinematicsSolver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepInverseKinematicsSolver" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingDataPrepare" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepInverseKinematicsSolver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepInverseKinematicsSolver" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingMaterial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepInverseKinematicsSolver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepInverseKinematicsSolver" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingMaterial" type="462c0819:PsiDirectoryNode" />
+              <item name="bvh_file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepInverseKinematicsSolver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepInverseKinematicsSolver" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainingMaterial" type="462c0819:PsiDirectoryNode" />
+              <item name="matlab_lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b90fa046-3ece-426c-b4eb-004c33f2d8a1" name="Default" comment="" />
+      <created>1539259220974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539259220974</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TrainingCode/FCN/fc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrainingCode/RNN/rnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="103" column="35" selection-start-line="84" selection-start-column="8" selection-end-line="103" selection-end-column="35" />
+          <folding>
+            <element signature="e#454#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrainingCode/GAN/GAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrainingDataPrepare/fifteen_restore.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrainingCode/RNN/rnn_multilayer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="e#454#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrainingDataPrepare/xyzdatacrawler.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrainingDataPrepare/test_pre.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrainingCode/CNN/cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrainingDataPrepare/trainingDataCrawl.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="54" column="45" lean-forward="true" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrainingDataPrepare/nine_restore.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrainingDataPrepare/testingDataPrepare.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

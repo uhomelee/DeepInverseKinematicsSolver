@@ -1,5 +1,5 @@
-addpath('/home/nevershutdown/recent/lib');
-addpath('/home/nevershutdown/recent/NDLUTIL0p161/NDLUTIL0p161');
+addpath('..//TrainingMaterial/matlab_lib');
+addpath('..//TrainingMaterial/NDLUTIL0p161');
 folders=dir('/home/nevershutdown/DataPrepare/Comparison of training and testing dataset/newchannelData/train');
 for j=3:length(folders)
     channel_path=strcat('/home/nevershutdown/DataPrepare/Comparison of training and testing dataset/newchannelData/train/',folders(j).name)
